@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5501/cafe.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cafe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="./My Cafe_files/css2" rel="stylesheet">
+<link rel="stylesheet" href="./My Cafe_files/style.css"></head>
+
+
+<body data-new-gr-c-s-check-loaded="14.987.0" data-gr-ext-installed="">
+    <!-- Introduction -->
+    <div id="fullimg">
+        <div id="quote">"This is a random quote"</div>
+        <h3 id="welcome">WELCOME TO MY CAFE</h3>
+        <div class="left">Date and Time</div>
+        <div id="intro">
+            <img src="./My Cafe_files/logo.jpg"><br>
+            <div class="name">
+                My Cafe
+            </div>
+        </div>
+
+        <!-- This will be conatact us -->
+        <span class="right">
+            <button class="btn">Contact Us</button>
+            <button class="btn">Location</button>
+        </span>
+
+
+
+        <!-- this is a navbar -->
+        <div class="box" id="item-1">
+            <ul>
+                <li><a href="http://127.0.0.1:5501/">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/blog">Blog</a></li>
+                <li><a href="http://127.0.0.1:5501/contact%20us">Contact </a></li>
+                <li><a href="http://127.0.0.1:5501/order">Order</a></li>
+            </ul>
+        </div>
+
+        <!-- this is a form -->
+        <div class="big-box">
+<div class="container">
+    <h4>sign up for <span class="imp-text">FREE</span>
+    <form action="http://127.0.0.1:5501/noaction.php">
+        <div class="form-group">
+            <input type="text " placeholder="Enter your Name">
+        </div>
+
+        <div class="form-group">
+            <input type="number" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-group">
+            <input type="number " placeholder="Enter your whatsapp no">
+        </div>
+
+        <div class="form-group">
+            <input type="email " placeholder="Enter your Email">
+        </div>
+<br><br>
+           <button class="submit-btn">SUBMIT</button>
+
+    </form>
+</h4></div>
+
+<!-- this is a a hotel view -->
+<div class="right" id="view">
+    <img src="./My Cafe_files/logo.jpg">
+    <img src="./My Cafe_files/view2.jpg">
+</div>
+
+     </div>
+
+
+<!-- These are the reviews -->
+    <div class="review">
+        <div class="review-box">
+            <h4 class="review-name">Customer Name</h4>
+            <div class="customer-review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+                voluptates voluptatibus cupiditate magnam, ipsum unde ex totam fugit est id pariatur aliquid natus
+                dolor? Reiciendis maxime optio enim nam officiis eaque, veritatis corrupti blanditiis dicta
+                perferendis amet ab suscipit quidem magni illum recusandae id provident!</div>
+            </div>
+            
+            
+            <div class="review-box">
+                <h4 class="review-name">Customer Name</h4>
+                <div class="customer-review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur voluptates
+                    voluptatibus cupiditate magnam, ipsum unde ex totam fugit est id pariatur aliquid natus dolor?
+                    Reiciendis maxime optio enim nam officiis eaque, veritatis corrupti blanditiis dicta perferendis amet ab
+                    suscipit quidem magni illum recusandae id provident!</div>
+                </div>
+                
+                
+                <div class="review-box">
+                    <h4 class="review-name">Customer Name</h4>
+                    <div class="customer-review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur voluptates
+                        voluptatibus cupiditate magnam, ipsum unde ex totam fugit est id pariatur aliquid natus dolor? Reiciendis
+                        maxime optio enim nam officiis eaque, veritatis corrupti blanditiis dicta perferendis amet ab suscipit
+                        quidem magni illum recusandae id provident!</div>
+             </div>
+                    
+                      
+                </div>
+</div>
+            <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+            
+            </body></html>
